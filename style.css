@@ -130,10 +130,7 @@ body .warna_kartu{
     text-align: justify;
 }
 
-
-
 body {
-    background-image: url("Background.png");
-    
-
+    background-image: url(Background.png);
 }
+
