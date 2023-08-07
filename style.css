@@ -1,0 +1,139 @@
+/*Navigation Bar*/
+nav {
+    background-color: rgba(1, 1, 1, 1.0);
+}
+
+
+/*Carousel*/
+
+.carousel-control-prev>.carousel-control-prev-icon {
+    background-image: url("Next Icon/Prev 1.png");
+}
+
+.carousel-control-next>.carousel-control-next-icon {
+    background-image: url("Next Icon/Next 1.png");
+}
+
+div .container-fluid {
+    height: 100vh
+}
+
+.carousel-item>.d-block {
+    height: 500px
+}
+
+/*Tabel Buku*/
+
+.ukuran_buku {
+    width: 100px;
+}
+
+/*Area kontak bawah (card WA & IG)*/
+.kontak_wa_ig {
+    background-color: rgba(1, 1, 1, 1)
+}
+
+
+/* Form Pertanyaan dan container judul*/
+.container_form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container_form>.col-10 {
+    border: 1px solid white;
+    width: 300px;
+    border-radius: 11px;
+    background-color: rgba(1, 1, 1, .3);
+}
+
+.container_judul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 270px;
+}
+
+.container_judul>.col-12 {
+    width: 300px;
+}
+
+body .kontak {
+    margin-top: 150px;
+}
+
+
+/*Kartu list semester*/
+body .buku{
+    overflow: auto;
+    float: left;
+}
+body .kartu {
+   
+    background-color: rgba(1, 1, 1, 1.0);
+    justify-content: center;
+    
+}
+
+
+/*Tentang Kami*/
+
+
+
+
+body .paragraf{
+    font-size: 1.1rem;
+    margin-top: 90px;
+    text-align: justify;
+    padding: 30px;
+    
+}
+
+/*Laptop*/
+@media( max-width: 992px){
+    html {font-size: 100%}
+
+}
+/*Tablet*/
+@media( max-width: 768px){
+    html {font-size: 75%}
+}
+
+/*HP*/
+@media( max-width: 570px){
+    html {font-size: 70%}
+    body .paragraf{
+    padding: 15px;}
+
+}
+
+
+body .container-sm>.judul_1{
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 550px;
+
+    
+
+}
+
+/* Kartu List Buku */
+
+body .warna_kartu{
+    background-color: #ccc;
+}
+
+
+/*Isi Konten*/
+
+.ini_teks{
+    text-align: justify;
+}
+
+
+
+body {
+    background-image: url("image-from-rawpixel-id-4331574-original.png");
+    background-repeat: repeat;
+
+}

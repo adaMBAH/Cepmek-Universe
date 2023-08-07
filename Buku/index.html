@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Cepmek Pustaka</title>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark border-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cepmek Pustaka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Books</a>
+                    </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Books List
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Buku Per Semester/Semester 1/index.html">Semester 1</a></li>
+                            <li><a class="dropdown-item" href="../Buku Per Semester/Semester 2/index.html">Semester 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../About/index.html">About</a></li>
+                            <li><a class="dropdown-item" href="../Kontak/index.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info fw-bold" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Daftar Buku -->
+    <div class="row container-fluid">
+        <h1 class="text-light my-4 ms-3">Daftar Buku</h1>
+        <div class=" col-12 col-sm-9 buku">
+            <div class="container-sm">
+                <table class="table table-dark table-striped border-light tabel-hover">
+                    <tr>
+                        <th>No</th>
+                        <th>Cover</th>
+                        <th>Judul</th>
+                        <th>Penulis</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><img class="ukuran_buku" src="Img/Menulis Populer.jpg" alt="Menulis Populer"></td>
+                        <td>Menulis Secara Populer</td>
+                        <td>Ismail Marahimin</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img class="ukuran_buku" src="Img/Manajemen.jpg" alt="Manajemen"></td>
+                        <td>Manajemen Jilid 1</td>
+                        <td> Robbins, Stephen P. Coulter, Mary</td>
+                        <td>Dipinjam</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img class="ukuran_buku" src="Img/Statistika.jpg" alt="Statistika"></td>
+                        <td>Statistika Terapan Edisi Ketiga</td>
+                        <td>Dr. Kadir M.Pd.</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><img class="ukuran_buku" src="Img/Akuntansi.jpg" alt="Akuntansi"></td>
+                        <td>Financial Accounting 3e IFRS Edition</td>
+                        <td>Kieso, Donald E, Weygant, Jerry J, Kimmel, Paul D</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><img class="ukuran_buku" src="Img/Manajemen 2.jpg" alt="Akuntansi"></td>
+                        <td>Manajemen Jilid 2</td>
+                        <td>Robbins, Stephen P. Coulter, Mary</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><img class="ukuran_buku" src="Img/Makroekonomi.jpg" alt="Akuntansi"></td>
+                        <td>Makroekonomi</td>
+                        <td>Sadono Sukirno</td>
+                        <td>Dipinjam</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><img class="ukuran_buku" src="Img/Mikroekonomi.jpg" alt="Akuntansi"></td>
+                        <td>Mikroekonomi</td>
+                        <td>Sadono Sukirno</td>
+                        <td>Dipinjam</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><img class="ukuran_buku" src="Img/Pancasila.jpg" alt="Akuntansi"></td>
+                        <td>Pancasila, Demokrasi, HAM, dan Masyarakat Madani</td>
+                        <td>A. Ubaedillah, Abdul Rozak</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><img class="ukuran_buku" src="Img/Manajemen Ernie.jpg" alt="Akuntansi"></td>
+                        <td>Pengantar Manajemen</td>
+                        <td>Ernie Tisnawati Sule, Kurniawan Saefullah</td>
+                        <td>Dipinjam</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><img class="ukuran_buku" src="Img/Akuntansi.jpg" alt="Akuntansi"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td><img class="ukuran_buku" src="Img/Akuntansi.jpg" alt="Akuntansi"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td><img class="ukuran_buku" src="Img/Akuntansi.jpg" alt="Akuntansi"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td><img class="ukuran_buku" src="Img/Akuntansi.jpg" alt="Akuntansi"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td><img class="ukuran_buku" src="Img/Akuntansi.jpg" alt="Akuntansi"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td><img class="ukuran_buku" src="Img/Akuntansi.jpg" alt="Akuntansi"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <div class="col-12 col-sm-3 container-fluid ">
+            <h3 class=" text-light">Buku Per Semester</h3>
+            <div class="card text-center  border-primary text-light kartu  my-4">
+                <div class="card-body ">
+                    <h5 class="card-title ">List Buku Semester 1</h5>
+                    <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 1.</p>
+                    <a href="../Buku Per Semester/Semester 1/index.html" class="btn btn-secondary d-block fw-bold  ">Lihat Selengkapnya</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-success rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+            </div>
+            <div class="card text-center  border-primary text-light kartu my-4">
+                <div class="card-body">
+                    <h5 class="card-title ">List Buku Semester 2</h5>
+                    <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 2.</p>
+                    <a href="../Buku Per Semester/Semester 2/index.html" class="btn btn-secondary d-block fw-bold ">Lihat Selengkapnya</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-dark rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+            </div>
+            <div class="card text-center  border-primary text-light kartu  my-4">
+                <div class="card-body">
+                    <h5 class="card-title ">List Buku Semester 3</h5>
+                    <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 3.</p>
+                    <a href="#" class="btn btn-secondary d-block fw-bold  ">Lihat Selengkapnya</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-dark rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+            </div>
+            <div class="card  border-primary text-light kartu  my-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title ">List Buku Semester 4</h5>
+                    <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 4.</p>
+                    <a href="#" class="btn btn-secondary d-block fw-bold  ">Lihat Selengkapnya</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-dark rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+            </div>
+            <div class="card  border-primary text-light kartu  my-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title ">List Buku Semester 5</h5>
+                    <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 5.</p>
+                    <a href="#" class="btn btn-secondary d-block fw-bold  ">Lihat Selengkapnya</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-dark rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+            </div>
+            <div class="card  border-primary text-light kartu  my-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title ">List Buku Semester 6</h5>
+                    <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 6.</p>
+                    <a href="#" class="btn btn-secondary d-block fw-bold  ">Lihat Selengkapnya</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-dark rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+            </div>
+            <div class="card  border-primary text-light kartu  my-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title ">List Buku Semester 7</h5>
+                    <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 7.</p>
+                    <a href="#" class="btn btn-secondary d-block fw-bold  ">Lihat Selengkapnya</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-dark rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+            </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>

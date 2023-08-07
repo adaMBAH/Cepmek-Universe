@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Cepmek Pustaka</title>
+</head>
+
+<body class="bg-dark">
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-dark  text-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cepmek Pustaka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Buku/index.html">Books</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Books List
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Buku Per Semester/Semester 1/index.html">Semester 1</a></li>
+                            <li><a class="dropdown-item" href="Buku Per Semester/Semester 2/index.html">Semester 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="About/index.html">About</a></li>
+                            <li><a class="dropdown-item" href="Kontak/index.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info fw-bold" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Layouting -->
+    <div class="container-fluid    text-center text-light">
+        <!-- Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Perpus/Perpusnas.jpg" class="d-block w-100" alt="Perpusnas">
+                    <div class="carousel-caption">
+                        <h5>Perpustakaan Nasional RI</h5>
+                        <p>Jl. Medan Merdeka Selatan No.11 Gambir Jakarta Pusat.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Perpus/Perpus UIN.jpg " class="d-block w-100" alt="Perpus UIN">
+                    <div class="carousel-caption">
+                        <h5>Pusat Perpustakaan UIN Syarif Hidayatullah Jakarta</h5>
+                        <p>Jl. Ir. H. Djuanda No.95 Ciputat Timur Cempaka Putih Tangerang Selatan.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Perpus/Perpus FEB.jpg" class="d-block w-100" alt="Perpus FEB">
+                    <div class="carousel-caption">
+                        <h5>Perpustakaan FEB UIN Syarif Hidayatullah Jakarta</h5>
+                        <p>Jl. Ibnu Taimia IV Pisangan Ciputat Timur Tangerang Selatan.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- End Carousel -->
+        <!-- Kata-kata  -->
+        <div class="row align-items-center mt-4">
+            <div class="col-12">
+                <img src="Buku/Img/Logo UIN JKT.png" alt="gambar" height="150px" width="200px">
+                <h2 class="mt-4">CEPMEK PUSTAKA</h2>
+                <p>Digital Repository for class C Islamic Banking UIN Jakarta 2022 students </p>
+            </div>
+        </div>
+        <!-- end katakata -->
+        <!-- Card Buku per semester -->
+        <div class="row mt-4">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">List Buku Semester 1</h5>
+                        <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 1.</p>
+                        <a href="Buku Per Semester/Semester 1/index.html" class="btn btn-dark d-block">Lihat Selengkapnya</a>
+                    </div>
+                    <span class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-dark rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">List Buku Semester 2</h5>
+                        <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 2.</p>
+                        <a href="Buku Per Semester/Semester 2/index.html" class="btn btn-dark d-block ">Lihat Selengkapnya</a>
+                    </div>
+                    <span class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-dark rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">List Buku Semester 3</h5>
+                        <p class="card-text">Daftar kumpulan buku-buku wajib pada setiap mata kuliah yang ada di semester 3. <span class="text-danger fw-bold">(On Going :)</span></p>
+                        <a href="#" class="disable btn btn-dark d-block">Lihat Selengkapnya</a>
+                    </div>
+                    <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-dark rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>

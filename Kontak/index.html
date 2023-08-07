@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Cepmek Pustaka</title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body class="bg-dark">
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cepmek Pustaka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Buku/index.html">Books</a>
+                    </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Books List
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Buku Per Semester/Semester 1/index.html">Semester 1</a></li>
+                            <li><a class="dropdown-item" href="../Buku Per Semester/Semester 2/index.html">Semester 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../About/index.html">About</a></li>
+                            <li><a class="dropdown-item" href="index.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info fw-bold" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Layouting -->
+    <div class="row kontak">
+        <div class="col-12 col-sm-6 container_judul">
+            <div class="col-12 ">
+                <h1 class="text-light  ">Hubungi Kami</h1>
+                <p class="text-light mt-5">Perlu menghubungi kami? Isi formulir dengan pertanyaan Anda atau dapat melalui kontak dibawah ini</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 ">
+            <div class="container_form">
+                <form class="col-10 col-md-6 row g-3   " style=" ">
+                    <div class="col-md-6">
+                        <label for="Nama" class="form-label text-light">Nama :</label>
+                        <input type="text" class="form-control bg-dark text-light" id="Nama">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="NIM" class="form-label text-light">NIM :</label>
+                        <input type="text" class="form-control bg-dark text-light" id="NIM">
+                    </div>
+                    <div class="col-12">
+                        <label for="Email" class="form-label text-light">Email : </label>
+                        <input type="text" class="form-control bg-dark text-light" id="Email" placeholder="xxx@gmail.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="Komen" class="form-label text-light">Komentar :</label>
+                        <textarea id="Komen" class="form-control bg-dark text-light" style="height: 100px;"></textarea>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <button type="submit" class="btn btn-outline-primary fw-bold">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="kontak_wa_ig">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-sm-6  mb-sm-5 mt-5">
+                    <div class="card text-center bg-dark text-light border-danger">
+                        <div class="card-body">
+                            <h5 class="card-title">Instagram</h5>
+                            <p class="card-text">Kirim pertanyaan melalui direct message ke Instagram kami.</p>
+                            <a onclick="window.open('https://www.instagram.com/ada_m4c4n/')"; class="btn btn-secondary d-block fw-bold ">Klik Disini</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  mb-5 mb-sm-5 mt-5">
+                    <div class="card text-center bg-dark text-light border-success">
+                        <div class="card-body">
+                            <h5 class="card-title">Whatsapp</h5>
+                            <p class="card-text"> Kirim pertanyaan melalui Whatsapp kami.</p>
+                            <a onclick="window.open('https://wa.link/87pvkc')"; class="btn btn-secondary d-block fw-bold">Klik Disini</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
